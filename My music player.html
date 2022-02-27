@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>
+                My Music Player
+        </title>
+        <link rel="stylesheet" type="text/css" href="Mymusic player.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/09e0bc7a3a.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+</head>
+
+<body>
+        <div class="container">
+                <div class="logo">
+                        <img src="logo icon.jpg" height="60" width="60">
+                </div>
+                <div id="heading"><span>
+                                <h1>Music<span>Player</span> </h1>
+                        </span></div>
+
+                <div class="dropdown">
+                        <ul>
+                                <li class="list"><a href="#">Favourites</a>
+                                        <ul>
+                                                <li><a href="#latestsong">Latest song</a></li>
+                                                <li><a href="#Topartist">Top Artist</a></li>
+                                                <li><a href="#Latestenglish">Latest English</a></li>
+                                                <li><a href="#Latesthindi">Latest Hindi</a></li>
+                                        </ul>
+                                </li>
+
+                        </ul>
+                </div>
+                <div class="searchbar">
+                        <span id="searchbox">
+                                <form>
+                                        <input type="text" placeholder="Search">
+                                        <i class="fas fa-search"></i>
+                                </form>
+                        </span>
+                </div>
+                <div id="bell-icon">
+                        <img src="notification icon.png" height="60" width="60">
+                </div>
+        </div>
+
+        <div id="main content">
+                <br>
+                <br>
+                <div id="welcome">
+                <h1>Welcome Ashwin,</h1>
+                <h1>To the World of Music</h1>
+        </div>
+               
+                <br>
+                <div class="poster">
+                        <span style="--i:1"><img src="poster1.jpg"></span>
+                        <span style="--i:2"><img src="poster2.jpg"></span>
+                        <span style="--i:3"><img src="poster3.jpg"></span>
+                        <span style="--i:4"><img src="poster4.jpg"></span>
+                        <span style="--i:5"><img src="poster5.jpg"></span>
+                        <span style="--i:6"><img src="poster6.jpg"></span>
+                        <span style="--i:7"><img src="poster7.jpg"></span>
+                        <span style="--i:8"><img src="dj chetas.jpg"></span>
+                </div>
+                <aside>
+                        <div class="queue-songs">
+                                <div id="queueheading">
+
+                                        <div id="heading1">
+                                                <p>Queue</p>
+                                        </div>
+
+                                        <span id="list2">
+                                                <select id="select">
+                                                        <option selected>Queue</option>
+                                                        <option>Playlists</option>
+                                                        <option>Add Favourites</option>
+                                                </select>
+                                        </span>
+                                </div>
+                                <br>
+
+                                <div class="music-box">
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://awesongoffload.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/06/16114204/kalikali.jpg"
+                                                                class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Kali Kali Zulfon</h6>
+
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Who_Says.jpg/220px-Who_Says.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6>Who Says </h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://cdn.smehost.net/rcarecordscom-usrcaprod/wp-content/uploads/2019/11/Avem-Cover-Art-Jpeg-560x560.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Alan Walker</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://direct.rhapsody.com/imageserver/images/alb.537752692/500x500.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> One Step Closer</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://static.billboard.com/files/media/Imagine-Dragons-press-photo-by-Eliot-Lee-Hazel-2018-billboard-1548-768x433.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Thunder</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://www.pinkvilla.com/imageresize/pinkvilla-picks-missing-zayn-malik-with-1d-one-direction-this-is-us-is-the-remedy-you-need-amid-quarantine.jpg?width=752&format=webp&t=pvorg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> History</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://i.pinimg.com/originals/f7/a9/41/f7a9418df94048e6434e2542ffa2064a.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Piya O Re Piya</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="atif.jpg" alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Hum kis Gali Jaa Rhe Hain</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://i1.sndcdn.com/artworks-000467042406-fhbfr6-t500x500.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Bandeya Re Bandeya</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://m.media-amazon.com/images/M/MV5BNGYzYTI0Y2MtN2FiMi00OGE0LWJlZmMtM2ZiOTRiMzM3M2RkXkEyXkFqcGdeQXVyMjExMzI0OTg@._V1_.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Invisible</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://i.ytimg.com/vi/9UaG7UL5yS4/maxresdefault.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6>Coca Cola</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://static.toiimg.com/thumb/msid-59772413,width-800,height-600,resizemode-75,imgsize-58899,pt-32,y_pad-40/59772413.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Hawayein</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://static.toiimg.com/photo/msid-72342472/72342472.jpg?726124"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Tu he Yaar Mera </h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://c.ndtvimg.com/2018-12/9sms4jco_kedarnath-instagram_625x300_07_December_18.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Jaan Nisaar</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://c.ndtvimg.com/2018-12/9sms4jco_kedarnath-instagram_625x300_07_December_18.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Qaafirana</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://m.media-amazon.com/images/M/MV5BYTI1OTRjN2YtYzc4Ny00OTVhLTlkOTEtOTc4ZmZhMjBmY2EwXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6> Lorde Royal</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+                                        <div class="music-info">
+                                                <div class="music-img">
+                                                        <img src="https://i1.sndcdn.com/artworks-emD83LTbzNrgWCIh-cOXJVw-t500x500.jpg"
+                                                                alt="cover" class="song-cover">
+                                                </div>
+                                                <div class="music-name">
+                                                        <h6>Raatein Lambiyaam</h6>
+                                                </div>
+                                                <i class="fa fa-ellipsis-v changes"></i>
+                                        </div>
+                                        <hr>
+
+                                </div>
+
+
+                        </div>
+                </aside>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 id="latestsong">Latest Song</h2>
+                <br>
+                <div class="adding-songs">
+                        <div class="image-info">
+                                <div class="images">
+                                        <img src="1D.jpg" alt="cover" class="song-cover" height="50px " width="70px">
+                                </div>
+                                <div class="image-name">
+                                        <a>
+                                                <h4>History</h4>
+                                        </a>
+                                </div>
+                                <div class="adding-heart">
+                                        <i class="far fa-heart"></i>
+                                </div>
+                                <div class="adding-dots">
+                                        <a href="#box1"> <i class="fa fa-ellipsis-v"></i></a>
+
+                                        <div id="box1">
+                                                <a href="#">X</a><br>
+                                                <i class="fa fa-play" id="first"></i>
+                                                <span>1.play</span><br>
+                                                <i class="far fa-address-card"></i>
+                                                <span>2.add to queue</span><br>
+                                                <i class="fas fa-plus"></i>
+                                                <span>3.add in playlist</span><br>
+                                                <i class="fas fa-heart"></i>
+                                                <span>4.like</span>
+                                        </div>
+                                        <span>4:44</span>
+                                </div>
+
+                        </div>
+
+                </div>
+                <div class="adding-songs">
+                        <div class="image-info">
+                                <div class="images">
+                                       
+                                        <img src="taylor swift.jpg" alt="cover" class="song-cover" height="50px "
+                                                width="70px" -->
+                                </div>
+                                <div class="image-name">
+                                        <a>
+                                                <h4>Blank Space</h4>
+                                        </a>
+                                </div>
+                                <div class="adding-heart">
+                                        <i class="far fa-heart"></i>
+                                </div>
+                                <div class="adding-dots">
+                                        <a href="#box2"> <i class="fa fa-ellipsis-v"></i></a>
+
+                                        <div id="box2">
+                                                <a href="#">X</a><br>
+                                                <i class="fa fa-play" id="first"></i>
+                                                <span>1.play</span><br>
+                                                <i class="far fa-address-card"></i>
+                                                <span>2.add to queue</span><br>
+                                                <i class="fas fa-plus"></i>
+                                                <span>3.add in playlist</span><br>
+                                                <i class="fas fa-heart"></i>
+                                                <span>4.like</span>
+                                        </div>
+                                        <span>5:44</span>
+                                </div>
+                        </div>
+                </div>
+                <BR>
+                <div class="adding-songs">
+                        <div class="image-info">
+                                <div class="images">
+                                        <img src="coldplay.jpg" alt="cover" class="song-cover" height="50px "
+                                                width="70px" -->
+                                </div>
+                                <div class="image-name">
+                                        <a>
+                                                <h4>Coldplay</h4>
+                                        </a>
+                                </div>
+                                <div class="adding-heart">
+                                        <i class="far fa-heart"></i>
+                                </div>
+                                <div class="adding-dots">
+                                        <a href="#box3"> <i class="fa fa-ellipsis-v"></i></a>
+                                        <div id="box3">
+                                                <a href="#">X</a><br>
+                                                <i class="fa fa-play" id="first"></i>
+                                                <span>1.play</span><br>
+                                                <i class="far fa-address-card"></i>
+                                                <span>2.add to queue</span><br>
+                                                <i class="fas fa-plus"></i>
+                                                <span>3.add in playlist</span><br>
+                                                <i class="fas fa-heart"></i>
+                                                <span>4.like</span>
+                                        </div>
+                                        <span>4:34</span>
+                                </div>
+                        </div>
+                </div>
+                <div class="adding-songs">
+                        <div class="image-info">
+                                <div class="images">
+                                        <img src="GOT.jpg" alt="cover" class="song-cover" height="50px " width="70px"
+                                                -->
+                                </div>
+                                <div class="image-name">
+                                        <a>
+                                                <h4>GOT Theme</h4>
+                                        </a>
+                                </div>
+                                <div class="adding-heart">
+                                        <i class="far fa-heart"></i>
+                                </div>
+                                <div class="adding-dots">
+                                        <a href="#box4"> <i class="fa fa-ellipsis-v"></i></a>
+                                        <div id="box4">
+                                                <a href="#">X</a><br>
+                                                <i class="fa fa-play" id="first"></i>
+                                                <span>1.play</span><br>
+                                                <i class="far fa-address-card"></i>
+                                                <span>2.add to queue</span><br>
+                                                <i class="fas fa-plus"></i>
+                                                <span>3.add in playlist</span><br>
+                                                <i class="fas fa-heart"></i>
+                                                <span>4.like</span>
+                                        </div>
+
+                                        <span>4:44</span>
+                                </div>
+                        </div>
+                </div>
+                <br>
+                <br>
+                <h2 id="Topartist">Top Artist</h2>
+                <br>
+
+                <div class="artistinfo">
+                        <div class="imageholder">
+                                <!-- on clicking onto the honeysingh image you will be able to reach to the different page-->
+                                <a href="Second page.html">
+                                <img src="taylor.jpg"></a> 
+                                <span>&nbsp&nbsp Taylor Swift</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="coldplay.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp&nbsp Coldplay</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="miley.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp Miley Cyrus</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="katy.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp Katy Perry</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="ariana.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp Ariana Grande</span>
+
+                        </div>
+                        <br>
+                        <br>
+                        <div class="imageholder">
+                                <img src="arijit.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbspArijit Singh</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="shreya.jpg">
+                                <span>&nbsp&nbspShreya Ghoshal</span>
+
+                        </div>
+
+                        <div class="imageholder">
+                                <img src="monali.jpg">
+                                <span>&nbsp&nbsp&nbspMonali Thakur</span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="dhvani.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dhvani </span>
+
+                        </div>
+                        <div class="imageholder">
+                                <img src="atif.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp &nbspAtif Aslam</span>
+
+                        </div>
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="themeimage">
+                        <span><img src="party.jpg"></span>
+                        <span><img src="electronic.jpg"></span>
+                        <span><img src="nature.jpg"></span>
+                </div>
+                <br>
+                <br>
+                <h2 id="Latestenglish">Latest English</h2>
+                <br>
+                <div class="englishsongs">
+                        <div class="imageholder1">
+                                <img src="heroes.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp Heroes</span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="in the end.jpg">
+                                <span>&nbsp&nbsp In The End </span>
+
+                        </div>
+
+                        <div class="imageholder1">
+                                <img src="million.jpg">
+                                <span>A Million Dreams</span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="roar.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Roar </span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="alone.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbspAlone</span>
+
+                        </div>
+                </div>
+                <br>
+                <h2 id="Latesthindi">Latest Hindi</h2>
+                <br>
+                <div class="hindisongs">
+                        <div class="imageholder1">
+                                <img src="filhaal.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp Filhaal</span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="jab koi baat.jpg">
+                                <span>&nbsp&nbsp Jab koi baat </span>
+
+                        </div>
+
+                        <div class="imageholder1">
+                                <img src="kalikali.jpg">
+                                <span>&nbspKali Kali Zulfon</span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="raanjhana.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Raanjhana </span>
+
+                        </div>
+                        <div class="imageholder1">
+                                <img src="Mehendi.jpg">
+                                <span>&nbsp&nbsp&nbsp&nbsp &nbspMehendi</span>
+
+                        </div>
+                </div>
+
+                <div class="music-player">
+                        <div class="song-image"> <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ2KO_LEPV16nDNdyq0IT4EQ2RBJnPr1qoOA&usqp=CAU">
+                        </div>
+                        <div class="about-song">
+                            <h2>Ye Jo Halka Halka Suroor Hai</h2>
+                            <p>Nusrat Fateh Ali Khan</p>
+                        </div>
+                        <div class="icons2">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                        <div class="adding-music">
+                            <div class="icons-shuffling" >
+                               
+                                <audio src="Ye Jo Halka Halka Suroor Hai Farhan Saeed.mp3" controls >
+                                </audio>
+                            </div>
+                          
+                        </div>
+                       
+                    </div>
+
+
+
+</body>
+
+</html>
